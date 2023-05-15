@@ -8,25 +8,32 @@ const handleDownload = () => {
   link.click();
 };
 
+const handleLinkedIn = () => {
+  const url = "https://www.linkedin.com/in/ningdavid"; // Replace with the desired URL
+  window.open(url, "_blank");
+};
+
+const handleGithub = () => {
+  const url = "https://github.com/Zotman03";
+  window.open(url, "_blank");
+};
+
 export default function Navbar() {
   return (
     <>
       <div className=" navbar bg-base-100 bg-[#167e66] grid justify-items-center grid-cols-8 text-white text-lg menu menu-horizontal px-1">
         <CurrencyRipple size={48} strokeWidth={2} color={"black"} />
-        <button className="text-white">
-          <a href="https://ningzhenglin.github.io">David's Personal Website</a>
-        </button>
-
         <button>
           <a href="https://ningzhenglin.github.io">Home</a>
         </button>
         <button className="w-24">Research</button>
         <button className="w-24">Experience</button>
+        <button className="w-24">Award</button>
         <button onClick={handleDownload}>CV Download</button>
-        <button>
+        <button onClick={handleGithub}>
           <BrandGithub size={35} strokeWidth={2} color={"white"} />
         </button>
-        <button>
+        <button onClick={handleLinkedIn}>
           <BrandLinkedin size={35} strokeWidth={2} color={"white"} />
         </button>
       </div>
