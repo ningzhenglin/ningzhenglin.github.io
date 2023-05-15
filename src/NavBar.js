@@ -21,7 +21,7 @@ const handleGithub = () => {
 export default function Navbar() {
   return (
     <>
-      <div className="navbar bg-base-100 bg-[#167e66] grid grid-cols-8 justify-items-center text-white text-lg font-serif">
+      <div className="bg-[#167e66] grid grid-cols-8 justify-items-center text-white text-lg font-serif">
         <CurrencyRipple size={50} strokeWidth={2} color={"black"} />
         <button>
           <a href="https://ningzhenglin.github.io">Home</a>
