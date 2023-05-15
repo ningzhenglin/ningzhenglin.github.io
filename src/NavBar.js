@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <>
       <div className="bg-[#167e66] grid grid-cols-8 justify-items-center text-white text-lg font-serif">
-        <CurrencyRipple size={50} strokeWidth={2} color={"black"} />
+        <CurrencyRipple size={50} strokeWidth={2} color={"white"} />
         <button>
           <a href="https://ningzhenglin.github.io">Home</a>
         </button>
