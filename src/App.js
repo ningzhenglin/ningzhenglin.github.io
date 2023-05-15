@@ -3,9 +3,9 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App-header App">
+    <div className="App-header App bg-[#fff]">
       <img src={logo} className="App-logo" alt="logo" />
-      <p>
+      <p className="text-black">
         David's Website Hello! This Website is still in the process of building
       </p>
     </div>
