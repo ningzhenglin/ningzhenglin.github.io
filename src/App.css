@@ -23,6 +23,13 @@
   color: white;
 }
 
+.App-header1 {
+  min-height: 20vh;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .App-link {
   color: #167e66;
 }

@@ -29,7 +29,7 @@ const handleScrollTop = () => {
 export default function Navbar() {
   return (
     <footer className="grid grid-cols-1 bg-[#167e66] h-64 justify-items-center">
-      <div className="items-center text-white">
+      <div className="items-center text-white mt-5">
         <p>David Ning's Personal Website (2023)</p>
         <p>Contact me at +1 (425)-443-8097</p>
       </div>
@@ -42,7 +42,7 @@ export default function Navbar() {
       <button onClick={handleDownload} className="text-white">
         CV
       </button>
-      <button onClick={handleScrollTop} className="text-white">
+      <button onClick={handleScrollTop} className="text-white  mb-5">
         Back to Top
       </button>
     </footer>
