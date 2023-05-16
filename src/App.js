@@ -12,6 +12,13 @@ const handlePlan = () => {
 function App() {
   return (
     <>
+      <div className="App App-header bg-[#fff]">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p className="text-black">
+          Hello! This Website is still in the process of restructuring
+        </p>
+      </div>
+      <div className="divider"></div>
       <div className="App-header1 grid grid-cols-2 place-content-around mt-10 ml-10 text-xl bg-[#fff]">
         <div className="font-serif text-black grid grid-cols-1">
           <b>David Ning:</b>
@@ -54,7 +61,7 @@ function App() {
         </div>
         <div className="font-serif text-black">
           <p>
-            <b>Undergraduate Courses:</b>
+            <b>Undergraduate Courses at University of California, Irvine:</b>
           </p>
           <p>
             CS Classes number that starts with 11x is about visual computing
@@ -734,13 +741,6 @@ function App() {
         </div>
       </div>
       <div className="divider"></div>
-
-      <div className="App App-header bg-[#fff]">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="text-black">
-          Hello! This Website is still in the process of restructuring
-        </p>
-      </div>
     </>
   );
 }
