@@ -23,17 +23,25 @@ function App() {
             3.5+.
           </p>
           <p>
-            I am very interested in Artificial Intelligence and its application
-            with Visual Computing. With the combination of AI and VR/AR, I
-            believe that it can make a significant impact on people's lives. In
-            my studies, I actively learn knowledge that involves AI and VR/AR. I
-            took many courses and did a lot of hands-on projects, and read books
-            regarding to those topics, those can be found in my research and
-            experience field.
+            <b>Research Interest:</b> I am very interested in Artificial
+            Intelligence and its application with Visual Computing. With the
+            combination of AI and VR/AR, I believe that it can make a
+            significant impact on people's lives. In my studies, I actively
+            learn knowledge that involves AI and VR/AR. I took many courses and
+            did a lot of hands-on projects, and read books regarding to those
+            topics, those can be found in my research and experience field.
+          </p>
+          <p>
+            <b>Skills:</b> Python, C++, Java, React.js, HTML, SQL, Machine
+            Learning, Unity.
+          </p>
+          <p>
+            <b>Languages:</b>English (native), Chinese (native), Spanish
+            (intermediate)
           </p>
           <p>
             Below, I will list classes that I had taken at College and High
-            School and books that I had read.
+            School.
           </p>
         </div>
 
