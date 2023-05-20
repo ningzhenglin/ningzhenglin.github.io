@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 const handlePlan = () => {
@@ -12,13 +11,6 @@ const handlePlan = () => {
 function App() {
   return (
     <>
-      <div className="App App-header bg-[#fff]">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="text-black">
-          Hello! This Website is still in the process of restructuring
-        </p>
-      </div>
-      <div className="divider"></div>
       <div className="App-header1 grid grid-cols-2 place-content-around mt-10 ml-10 text-xl bg-[#fff]">
         <div className="font-serif text-black grid grid-cols-1">
           <b>David Ning:</b>
@@ -28,7 +20,7 @@ function App() {
             undergraduate student in University of California, Irvine (UCI)
             pursuing a major in Computer Science and a minor in Sociology. I
             anticipate to graduate with the class of 2024. My current GPA is
-            around 3.54.
+            3.5+.
           </p>
           <p>
             I am very interested in Artificial Intelligence and its application
@@ -730,17 +722,16 @@ function App() {
 
       <div className="App-header1 grid grid-cols-2 place-content-around mt-10 ml-10 text-xl bg-[#fff]">
         <div className="font-serif text-black grid grid-cols-1">
-          <p>This is the section for books</p>
+          <p>I love to watch American Football and Basketball</p>
+          <p>I am a big Seahawks and Trail Blazers fan</p>
+          <p>I also like to play escape room.</p>
+        </div>
+        <div className="grid grid-cols-1 justify-items-center justify-center mb-10">
+          <div className="md:w-1/2">
+            <img src="./D2.png" alt="" className="w-full rounded-lg" />
+          </div>
         </div>
       </div>
-      <div className="divider"></div>
-
-      <div className="App-header1 grid grid-cols-2 place-content-around mt-10 ml-10 text-xl bg-[#fff]">
-        <div className="font-serif text-black grid grid-cols-1">
-          <p>This is the section for Hobbies</p>
-        </div>
-      </div>
-      <div className="divider"></div>
     </>
   );
 }
