@@ -99,6 +99,8 @@ function App() {
                   Models
                 </h3>
                 <p className="py-4">
+                  <b>Spring 2024</b>
+                  <br />
                   Graphical model techniques dealing with probabilistic and
                   deterministic knowledge representations. Focuses on graphical
                   models such as constraint networks, Bayesian networks, and
@@ -150,6 +152,8 @@ function App() {
                   Project in Artificial Intelligence
                 </h3>
                 <p className="py-4">
+                  <b>Winter 2024</b>
+                  <br />
                   Construction of a working artificial intelligence system.
                   Evaluation of capabilities of the system including impact of
                   knowledge representation.
@@ -278,6 +282,8 @@ function App() {
                   Project in Databases and Web Applications
                 </h3>
                 <p className="py-4">
+                  <b>Spring 2024</b>
+                  <br />
                   Introduces students to advanced database technologies and web
                   applications. Topics include database connectivity
                   (ODBC/JDBC), extending databases using stored procedures,
@@ -308,6 +314,8 @@ function App() {
                   Introduction to Data Management
                 </h3>
                 <p className="py-4">
+                  <b>Winter 2024</b>
+                  <br />
                   Introduction to the design of databases and the use of
                   database management systems (DBMS) for applications. Topics
                   include entity-relationship modeling for design, relational
@@ -332,6 +340,8 @@ function App() {
                 </label>
                 <h3 className="text-lg font-bold">Information Retrieval</h3>
                 <p className="py-4">
+                  <b>Spring 2024</b>
+                  <br />
                   An introduction to information retrieval including indexing,
                   retrieval, classifying, and clustering text and multimedia
                   documents.
@@ -382,6 +392,8 @@ function App() {
                   Computational Photography and Vision
                 </h3>
                 <p className="py-4">
+                  <b>Winter 2024</b>
+                  <br />
                   Introduces the problems of computer vision through the
                   application of computational photography. Specific topics
                   include photo-editing (image warping, compositing, hole
