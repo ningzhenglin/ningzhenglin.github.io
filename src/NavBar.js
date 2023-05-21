@@ -1,4 +1,5 @@
 import { BrandGithub, BrandLinkedin, CurrencyRipple } from "tabler-icons-react";
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 const handleDownload = () => {
   const url = "./Ning_Resume.pdf";
@@ -18,17 +19,46 @@ const handleGithub = () => {
   window.open(url, "_blank");
 };
 
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to);
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+
+  return (
+    <li
+      className={
+        isActive
+          ? "active flex items-center justify-center justify-items-center"
+          : "flex items-center justify-center justify-items-center"
+      }
+    >
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  );
+}
+
 export default function Navbar() {
   return (
     <>
-      <div className="bg-[#167e66] grid grid-cols-8 justify-items-center text-white text-lg font-serif">
+      <nav className="bg-[#167e66] grid grid-cols-9 justify-items-center text-white text-lg font-serif list-none">
         <CurrencyRipple size={50} strokeWidth={2} color={"white"} />
-        <button>
-          <a href="https://ningzhenglin.github.io">Home</a>
-        </button>
-        <button className="w-24">Research</button>
-        <button className="w-24">Experience</button>
-        <button className="w-24">Award</button>
+        <Link to="/" className="flex items-center">
+          Home
+        </Link>
+
+        <CustomLink to="/research">
+          <button>Research</button>
+        </CustomLink>
+        <CustomLink to="/experience">
+          <button>Experience</button>
+        </CustomLink>
+        <CustomLink to="/teaching">
+          <button>Teaching</button>
+        </CustomLink>
+        <CustomLink to="/award">
+          <button>Award</button>
+        </CustomLink>
         <button onClick={handleDownload}>CV Download</button>
         <button onClick={handleGithub}>
           <BrandGithub size={35} strokeWidth={2} color={"white"} />
@@ -36,7 +66,7 @@ export default function Navbar() {
         <button onClick={handleLinkedIn}>
           <BrandLinkedin size={35} strokeWidth={2} color={"white"} />
         </button>
-      </div>
+      </nav>
     </>
   );
 }

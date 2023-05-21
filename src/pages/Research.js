@@ -1,3 +1,5 @@
+import logo from "logo192.png";
+
 export default function Research() {
   return (
     <div>
