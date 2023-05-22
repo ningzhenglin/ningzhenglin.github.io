@@ -59,6 +59,9 @@ export default function Navbar() {
         <CustomLink to="/award">
           <button>Award</button>
         </CustomLink>
+        {/* <CustomLink to="/publication">
+          <button>Publication</button>
+        </CustomLink> */}
         <button onClick={handleDownload}>CV Download</button>
         <button onClick={handleGithub}>
           <BrandGithub size={35} strokeWidth={2} color={"white"} />

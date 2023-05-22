@@ -1,6 +1,6 @@
 import logo from "../../src/logo.svg";
 
-export default function Research() {
+export default function Teaching() {
   return (
     <div>
       <div className="App App-header bg-[#fff]">
