@@ -18,7 +18,7 @@ export default function Home() {
             undergraduate student in University of California, Irvine (UCI)
             pursuing a major in Computer Science and a minor in Sociology. I
             anticipate to graduate with the class of 2024. My current GPA is
-            3.5+.
+            3.6+.
           </p>
           <p>
             <b>Research Interest:</b> I am very interested in Artificial
