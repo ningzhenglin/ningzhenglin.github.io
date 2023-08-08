@@ -13,9 +13,8 @@ export default function Home() {
         <div className="font-serif text-black grid grid-cols-1">
           <b>David Ning:</b>
           <p>
-            Hello! My name is Zhenglin(David) Ning. I am a Permanent Resident of
-            the United States of America. I am currently enrolled as an
-            undergraduate student in University of California, Irvine (UCI)
+            Hello! My name is Zhenglin(David) Ning. I am currently enrolled as
+            an undergraduate student in University of California, Irvine (UCI)
             pursuing a major in Computer Science and a minor in Sociology. I
             anticipate to graduate with the class of 2024. My current GPA is
             3.6+.
